@@ -1,0 +1,14 @@
+{
+	"extends": "@tsconfig/strictest/tsconfig.json",
+	"include": ["src/**/*.ts"],
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"lib": ["ESNext"],
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
+		"exactOptionalPropertyTypes": false,
+		"verbatimModuleSyntax": true
+	}
+}
